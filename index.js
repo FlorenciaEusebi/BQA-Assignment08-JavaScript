@@ -8,3 +8,5 @@
   daysSum = workingDaysFirstSemester + workingDaysSecondSemester;
 
   console.log(daysSum);
+
+
