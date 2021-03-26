@@ -40,22 +40,22 @@
   numberOfStudents = 'There are ten students enrolled in the First Cerificate course';
   console.log(numberOfStudents.substring(0,5));
 
-  //****** Exercise 2 C ******
+//****** Exercise 2 C ******
   var numberOfStudents;
   numberOfStudents = 'There are ten students enrolled in the First Cerificate course';
   console.log(numberOfStudents.substring(59,62));
 
-  //****** Exercise 2 D ******
+//****** Exercise 2 D ******
   var nameOfFollowingCourse;
   nameOfFollowingCourse = 'cONSOLIDATION'
   console.log(nameOfFollowingCourse.substring(0,1).toUpperCase() + nameOfFollowingCourse.substring(1,14).toLowerCase());
 
-  //****** Exercise 2 E ******
+//****** Exercise 2 E ******
   var courseDuration;
   courseDuration = 'March to December'
   console.log(courseDuration.indexOf(' '));
 
-  //****** Exercise 2 F ******
+//****** Exercise 2 F ******
   var typeOfDegree;
   typeOfDegree = 'INTERNATIONAL CERTIFICATE'
   console.log(typeOfDegree.substring(0,1).toUpperCase() + typeOfDegree.substring(1,13).toLowerCase() +
@@ -116,25 +116,37 @@
 
 //****** IF ELSE ******
 //****** Exercise 4 A *******
-var examGrades = Math.random();
-if (examGrades > 0,5){
-  console.log('Greater than 0,5');
-  }else{ console.log('Lower than 0,5')
+  var examGrades = Math.random();
+  if (examGrades > 0,5){
+    console.log('Greater than 0,5');
+    }else{ console.log('Lower than 0,5')
 }
+
 //****** Exercise 4 B *******
-var age = 29;
-if (age < 2){
-  console.log('Bebé')
-}else if ((age => 2) && (age <= 12)){
-  console.log('Niño')
-}else if ((age > 12) && (age <= 19)){
-  console.log('Adolescente')
-}else if ((age >= 20) && (age <= 30)){
-  console.log('Joven')
-}else if ((age > 30) && (age <= 60)){
-  console.log('Adulto')
-}else if ((age >= 61) && (age <= 75)){
-  console.log('Adulto mayor')
-}else if (age > 75){
-  console.log('Anciano')
+  var age = 29;
+  if (age < 2){
+    console.log('Bebé')
+  }else if ((age => 2) && (age <= 12)){
+    console.log('Niño')
+  }else if ((age > 12) && (age <= 19)){
+    console.log('Adolescente')
+  }else if ((age >= 20) && (age <= 30)){
+    console.log('Joven')
+  }else if ((age > 30) && (age <= 60)){
+    console.log('Adulto')
+  }else if ((age >= 61) && (age <= 75)){
+    console.log('Adulto mayor')
+  }else if (age > 75){
+    console.log('Anciano')
+  }
+
+//****** FOR ******C:\
+var skills;
+skills = ['listening', 'writing', 'reading', 'use of english', 'speaking'];
+for (var skills = 0; skills < 5; skills++){
+console.log(1);
 }
+//****** Exercise 5 A *******
+//****** Exercise 5 B *******
+//****** Exercise 5 C *******
+//****** Exercise 5 D *******/
