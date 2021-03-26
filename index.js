@@ -58,5 +58,58 @@
   //****** Exercise 2 F ******
   var typeOfDegree;
   typeOfDegree = 'INTERNATIONAL CERTIFICATE'
-  console.log(typeOfDegree.substring(0,1).toUpperCase() + typeOfDegree.substring(1,13).toLowerCase() + typeOfDegree.substring(typeOfDegree.indexOf(' '),15).toUpperCase() + typeOfDegree.substring(15,25).toLowerCase());
+  console.log(typeOfDegree.substring(0,1).toUpperCase() + typeOfDegree.substring(1,13).toLowerCase() +
+  typeOfDegree.substring(typeOfDegree.indexOf(' '),15).toUpperCase() + typeOfDegree.substring(15,25).toLowerCase());
 
+//****** Arrays ******
+//****** Exercise 3 A *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  console.log(monthsOfYear[4]);
+  console.log(monthsOfYear[10]);
+
+//****** Exercise 3 B *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  console.log(monthsOfYear.sort());
+
+//****** Exercise 3 C *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  monthsOfYear.unshift('Months');
+  console.log(monthsOfYear);
+  monthsOfYear.push('End of List');
+  console.log(monthsOfYear);
+
+//****** Exercise 3 D *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  monthsOfYear.shift(0);
+  console.log(monthsOfYear);
+  monthsOfYear.pop(11);
+  console.log(monthsOfYear);
+
+//****** Exercise 3 E *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  monthsOfYear.reverse();
+  console.log(monthsOfYear);
+
+//****** Exercise 3 F *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  var myVarJoined = monthsOfYear.join('-');
+  console.log(myVarJoined);
+
+//****** Exercise 3 G *******
+  var monthsOfYear;
+  monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+  'October', 'November', 'December'];
+  var string1 = monthsOfYear.slice(4,-1);
+  console.log(string1);
