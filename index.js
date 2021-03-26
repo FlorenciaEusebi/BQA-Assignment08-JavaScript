@@ -113,3 +113,28 @@
   'October', 'November', 'December'];
   var string1 = monthsOfYear.slice(4,-1);
   console.log(string1);
+
+//****** IF ELSE ******
+//****** Exercise 4 A *******
+var examGrades = Math.random();
+if (examGrades > 0,5){
+  console.log('Greater than 0,5');
+  }else{ console.log('Lower than 0,5')
+}
+//****** Exercise 4 B *******
+var age = 29;
+if (age < 2){
+  console.log('Bebé')
+}else if ((age => 2) && (age <= 12)){
+  console.log('Niño')
+}else if ((age > 12) && (age <= 19)){
+  console.log('Adolescente')
+}else if ((age >= 20) && (age <= 30)){
+  console.log('Joven')
+}else if ((age > 30) && (age <= 60)){
+  console.log('Adulto')
+}else if ((age >= 61) && (age <= 75)){
+  console.log('Adulto mayor')
+}else if (age > 75){
+  console.log('Anciano')
+}
